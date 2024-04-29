@@ -76,6 +76,66 @@ body {
   margin: 8px;
 }
 
+.button {
+  background-color: #0e4f1f;
+  color: #fff;
+  font: inherit;
+  border: solid 1.5px #0e4f1f;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.button:hover, .button:active {
+  background-color: #fff;
+  color: #0e4f1f;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.key-features {
+  background-color: #ff1b68;
+  margin-top: 80px;
+}
+
+.key-features .section-title {
+  color: #fff;
+  margin: 32px;
+  padding: 60px;
+}
+
+.key-features__list {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__image {
+  width: 128px;
+  height: 128px;
+  background-color: #ffcede;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+}
+
 /* h1 {
     font-family: sans-serif;
 } */
