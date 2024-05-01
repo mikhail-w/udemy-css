@@ -84,10 +84,6 @@ main {
   text-align: center;
 }
 
-.mobile-nav__item {
-  margin: 1rem 6rem;
-}
-
 .mobile-nav__item a {
   font-size: 1.5rem;
   text-decoration: none;
