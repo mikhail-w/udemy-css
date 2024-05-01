@@ -16,6 +16,7 @@ main {
   margin: 2rem 0;
   border: 4px solid #0e4f1f;
   border-left: none;
+  /* max-width: 40rem; */
 }
 
 .package:hover,
@@ -79,4 +80,26 @@ main {
 
 #premium .package__subtitle {
   color: #bbb;
+}
+
+@media(width>40rem) {
+  main {
+    margin: 3rem auto;
+    max-width: 1500px;
+  }
+}
+
+@media(width>=1500px) {
+  .package {
+    border-left: 4px solid #0e4f1f;
+  }
+
+  #free {
+    border-right: 4px solid #0e4f1f;
+  }
+
+  /* #free:hover,
+  #free:active {
+    border-right-color: #ff5454;
+  } */
 }
