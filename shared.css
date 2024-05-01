@@ -112,7 +112,7 @@ body {
   .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 122px);
+    width: calc(100% - 69px);
     vertical-align: middle;
   }
 
