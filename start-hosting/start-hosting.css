@@ -59,6 +59,12 @@ main {
   border: #0e4f1f;
 }
 
+.signup-form input.invalid,
+.signup-form select.invalid {
+  border-color: red;
+  background-color: #faacac;
+}
+
 .signup-form button[type="submit"] {
   display: block;
   margin-top: 1rem;
