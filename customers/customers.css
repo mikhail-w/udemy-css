@@ -1,9 +1,9 @@
-.testimonial {
-  font-size: 1.2rem;
+main {
+  padding-top: 2.5rem;
 }
 
-.testimonial:first-of-type {
-  margin-top: 6rem;
+.testimonial {
+  font-size: 1.2rem;
 }
 
 .testimonial__image-container {
@@ -20,9 +20,6 @@
 .testimonial__info {
   text-align: right;
   padding: 0.9rem;
-  /* display: inline-block;
-  vertical-align: middle;
-  width: 30%; */
 }
 
 #customer-2.testimonial {

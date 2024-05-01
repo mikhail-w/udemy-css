@@ -5,10 +5,9 @@
   width: 100vw;
   height: 33vh;
   background-size: cover;
-  /* background-repeat: no-repeat; */
-  /* background-position: cover; */
+  background-repeat: no-repeat;
+  background-position: cover;
   padding: 0.62rem;
-  margin-top: 2.75rem;
   position: relative;
 }
 
@@ -73,7 +72,7 @@
   margin: 0.5rem;
 }
 
-@media(width>40rem) and (height>60rem) {
+@media(width>40rem) and (height>40rem) {
   #product-overview {
     height: 40vh;
     background-position: 50% 25%;
@@ -132,11 +131,6 @@
   padding: 0;
 }
 
-/* .key-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-} */
 .key-feature:last-child {
   padding-bottom: 2rem;
 }
